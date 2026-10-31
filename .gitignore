@@ -1,0 +1,32 @@
+# Swift build artifacts
+.build/
+*.o
+*.d
+
+# App bundle (built locally, not committed)
+*.app
+*.zip
+*.dmg
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
+.swiftpm/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.cursor/
+*.swp
+
+# Personal exports and local data
+timetrack-*.csv
+*.db
+*.db-wal
+*.db-shm
